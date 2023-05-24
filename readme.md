@@ -41,24 +41,24 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   </li>
   <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03" style="color:white;">Stage 03</a>
     <ul>
-      <li><a href="" style="color:white;">Formulários</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/formularios" style="color:white;">Formulários</a>
         <ul>
-          <li><a href="" style="color:white;">Form Evento</a></li>
-          <li><a href="" style="color:white;">Form Mentoria</a></li>
-          <li><a href="" style="color:white;">Form Avaliacao</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_01/index.html" style="color:white;">Form Evento</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_02/index.html" style="color:white;">Form Mentoria</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color:white;">Form Avaliacao</a></li>
         </ul><BR>
       </li>
-      <li><a href="" style="color:white;">Responsividade</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/responsividade" style="color:white;">Responsividade</a>
         <ul>
-          <li><a href="" style="color:white;">Responsivo</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/responsividade/index.html" style="color:white;">Responsivo</a></li>
         </ul>
       </li><BR>
-      <li><a href="" style="color:white;">Avançando no HTML e CSS</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/avancando" style="color:white;">Avançando no HTML e CSS</a>
         <ul>
-          <li><a href="" style="color:white;">Trabalhos Recentes</a></li>
-          <li><a href="" style="color:white;">Space Cream</a></li>
-          <li><a href="" style="color:white;">Space Cream 02</a></li>
-          <li><a href="" style="color:white;">Jardim das Toupeiras</a></li><BR>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/trabalhos_recentes/index.html" style="color:white;">Trabalhos Recentes</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream/index.html" style="color:white;">Space Cream</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream_02/index.html" style="color:white;">Space Cream 02</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/toupeiras/index.html" style="color:white;">Jardim das Toupeiras</a></li><BR>
         </ul>
       </li>
     </ul>
