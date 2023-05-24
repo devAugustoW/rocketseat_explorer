@@ -1,10 +1,7 @@
+# Programa Explorer
 <img src="Explorer_img_Readme.svg">
 
 <br>
-
-# Programa Explorer
-
-
 
 <p style="text-align: justify;">O Explorer é um programa de formação da Rocketseat que oferece treinamento em programação, desde os fundamentos até a preparação para a primeira vaga de emprego na área. Os módulos incluem desde fundamentos da internet e programação web, até o uso de ferramentas como Git, bancos de dados SQL, e o desenvolvimento de aplicações com React, Node.js e outras tecnologias. O programa também aborda temas como controle de versão, integração front-end e back-end, autenticação, testes e implantação de projetos.</p>
 <br><br>
@@ -96,7 +93,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
       </li>
     </ul>
   </li> <br>
-  <li><a href="" style="color: white;">Intensivao</a>
+  <li><a href="" style="color: white;">Intensivão</a>
     <ul>
       <li><a href="" style="color:white;">Explore sem limites</a>
   </li>
