@@ -1,4 +1,4 @@
-<img src="./explorer_img_readme.svg">
+<img src="explorer_img_readme.svg">
 <br>
 
 # Programa Explorer
@@ -30,13 +30,13 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   <li>Stage 01</li><BR>
   <li><a href="" style="color:white;">Stage 02</a>
     <ul>
-      <li>Introdução ao HTML e CSS
+      <li><a href="" style="color:white;">Introdução ao HTML e CSS</a>
         <ul>
           <li><a href="" style="color:white;">Móveis Customizados</a></li>
           <li><a href="" style="color:white;">Corrigindo Bugs</a></li>
           <li><a href="" style="color:white;">Flutuar</a></li>
           <li><a href="" style="color:white;">Treine.me</a></li>
-          <li><a href="" style="color:white;"></a>Rocket.sect</li>
+          <li><a href="" style="color:white;">Rocket.sect</a></li>
         </ul>
       </li>
     </ul><BR>
