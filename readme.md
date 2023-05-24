@@ -65,7 +65,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   </li>
   <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04" style="color: white;">Stage 04</a>
     <ul>
-      <li><a href="" style="color:white;">Introdução aos conceitos de JavaScript</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/introucao_JS" style="color:white;">Introdução aos conceitos de JavaScript</a>
         <ul>
             <li><a href="" style="color:white;">Tipos de Dados</a></li>
             <li><a href="" style="color:white;">Variáveis</a></li>
@@ -77,7 +77,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
             <li><a href="" style="color:white;">Estruturas de Repetição</a></li>
         </ul>
       </li> <br>
-      <li><a href=""style="color: white;">Lógica de Programação</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/algoritmos_e_logica"style="color: white;">Lógica de Programação</a>
         <ul> 
           <li><a href="" style="color:white;">Perguntando nome e mostrando mensagem</a></li>
           <li><a href="" style="color:white;">Somar 2 númeors</a></li>
@@ -95,6 +95,6 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   </li> <br>
   <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao" style="color: white;">Intensivão</a>
     <ul>
-      <li><a href="" style="color:white;">Explore sem limites</a></li>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao/explore_sem_limites" style="color:white;">Explore sem limites</a></li>
       <li><a href="" style="color:white;"></a></li>
   </li>

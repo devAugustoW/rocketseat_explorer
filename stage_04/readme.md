@@ -7,12 +7,12 @@
 A primeira parte deste Stage é conceitual. Os assuntos abordados estão listados abaixo.
 
 <ul>
-    <li><a href="" style="color:white;">Introdução aos conceitos de JavaScript</a>
+    <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/introucao_JS" style="color:white;">Introdução aos conceitos de JavaScript</a>
         <ul>
             <li><a href="" style="color:white;">Tipos de Dados</a></li>
-            <li><a href="" style="color:white;"></a>Variáveis</li>
-            <li><a href="" style="color:white;"></a>Praticando</li>
-            <li><a href="" style="color:white;"></a>Funções</li>
+            <li><a href="" style="color:white;">Variáveis</a></li>
+            <li><a href="" style="color:white;">Praticando</a></li>
+            <li><a href="" style="color:white;">Funções</a></li>
             <li><a href="" style="color:white;">Manipulando Dados</a></li>
             <li><a href="" style="color:white;">Expressões e Operações</a></li>
             <li><a href="" style="color:white;">Condicionais e Controle de Fluxo</a></li>
@@ -28,7 +28,7 @@ A primeira parte deste Stage é conceitual. Os assuntos abordados estão listado
 Na segunda parte deste Stage é ensinado a importância da quebra de paradigmas, como raciocinar afim de resolver problemas e como organizar o pensamento lógico. Nos desafios e exercícios listados abaixo temos execução de funções, variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e maipulação de dados com foco na resolução de problemas.</p>
 
 <ul>
-    <li><a href="" style="color:white;">Algorítmo e lógica de programação com JavaScript</a>
+    <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/algoritmos_e_logica" style="color:white;">Algorítmo e lógica de programação com JavaScript</a>
         <ul>
             <li><a href="" style="color:white;">Perguntando nome e mostrando mensagem</a></li>
             <li><a href="" style="color:white;">Somar 2 númeors</a></li>

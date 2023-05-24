@@ -9,7 +9,7 @@ Projeto de revisão que consolida boa parte das técnicas e ensinamentos utiliza
 
 O projeto pode ser acessado pelo link abaixo:
 <ul>
-    <li><a href="#" target="_blank" style="color: white;">Explore sem limites</a></p>
+    <li><a href="https://devaugustow.github.io/rocketseat_explorer/intensivao/explore_sem_limites/index.html" target="_blank" style="color: white;">Explore sem limites</a></p>
 </ul>
 
 <br> 
