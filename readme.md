@@ -26,20 +26,20 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
 
 <ol>
   <li>Stage 01</li><BR>
-  <li><a href="" style="text-decoration:none;">Stage 02</a>
+  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_02" style="text-decoration:none;">Stage 02</a>
     <ul>
-      <li><a href="" style="color:white;">Introdução ao HTML e CSS</a>
+      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_02" style="color:white;">Introdução ao HTML e CSS</a>
         <ul>
-          <li><a href="" style="color:white;">Móveis Customizados</a></li>
-          <li><a href="" style="color:white;">Corrigindo Bugs</a></li>
-          <li><a href="" style="color:white;">Flutuar</a></li>
-          <li><a href="" style="color:white;">Treine.me</a></li>
-          <li><a href="" style="color:white;">Rocket.sect</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/moveis_customizados/index.html" style="color:white;">Móveis Customizados</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/corrigindo_bugs/index.html" style="color:white;">Corrigindo Bugs</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/flutuar/index.html" style="color:white;">Flutuar</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/treine_me/index.html" style="color:white;">Treine.me</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/rocket_sect/index.html" style="color:white;">Rocket.sect</a></li>
         </ul>
       </li>
     </ul><BR>
   </li>
-  <li><a href="" style="color:white;">Stage 03</a>
+  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03" style="color:white;">Stage 03</a>
     <ul>
       <li><a href="" style="color:white;">Formulários</a>
         <ul>
@@ -63,7 +63,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
       </li>
     </ul>
   </li>
-  <li><a href="" style="color: white;">Stage 04</a>
+  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04" style="color: white;">Stage 04</a>
     <ul>
       <li><a href="" style="color:white;">Introdução aos conceitos de JavaScript</a>
         <ul>
@@ -93,7 +93,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
       </li>
     </ul>
   </li> <br>
-  <li><a href="" style="color: white;">Intensivão</a>
+  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao" style="color: white;">Intensivão</a>
     <ul>
       <li><a href="" style="color:white;">Explore sem limites</a></li>
       <li><a href="" style="color:white;"></a></li>
