@@ -1,0 +1,257 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --ff-title: 'Staatliches', sans-serif;
+    --ff-text: 'Palanquin', sans-serif;
+
+    --fc-h1: #FFFFFF;
+    --fc-h3: #4A4E69;
+    --fc-text: #23053A;
+
+    --bc-body: #EFF1FF;
+    --bc-header: #8E9AAF;
+    --bc-h1: #CBC0D3;
+    --bc-h3: #FEEAFA;
+
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bc-body);
+}
+
+header {
+    background-color: var(--bc-header);
+    padding: 3.2rem 0 2.9rem;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+header img {
+    width: 13.7rem;
+    height: 13.7rem;
+    margin-bottom: 3.2rem;
+}
+header h1 {
+    font-family: var(--ff-title);
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--fc-h1);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    letter-spacing: .3rem;
+
+    background-color: var(--bc-h1);
+}
+
+main {
+    max-width: 38.4rem;
+    padding: 1.4rem 0 6rem;
+    margin: auto;
+}
+main p {
+    font-family: var(--ff-text);
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--fc-text);
+    text-align: center;
+    margin-bottom: 6.3rem;
+}
+
+.card{
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    margin-bottom: 3.2rem;
+    animation: downtop 900ms;
+}
+.card h3{
+    font-family: var(--ff-title);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--fc-h3);
+    letter-spacing: .2rem;
+
+    background-color: var(--bc-h3);
+    display: inline;
+    padding: 1rem 2.3rem;
+    border-radius: 2rem;
+
+    position: absolute;
+    right: 1.6rem;
+    top:1.6rem;
+
+    animation: topdown 900ms;
+}
+.card5,
+.card6{
+    display: none;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+
+    display: none;
+}
+footer p a {
+   text-decoration:  none;
+   font-weight: 700;
+   color: #4A4E69;
+}
+
+
+@keyframes topdown {
+    0% {
+      opacity: 0;
+      transform: translateY(-55px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes downtop {
+    0% {
+      opacity: 0;
+      transform: translateY(55px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    main {
+        max-width: 76.8rem;
+        display: grid;
+        grid-template-areas: "P P"
+                             "A B"
+                             "D B"
+                             "D C";
+        gap: 3.2rem;
+    }
+
+    main p{
+        grid-area: P;
+    }
+    .card1 {
+        grid-area: A;
+    }
+    .card2 {
+        grid-area: B;
+    }
+    .card3 {
+        grid-area: C;
+    }
+    .card4 {
+        grid-area: D;
+    }
+    .card {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-height: 75rem;
+    }
+    header {
+        width: 30vw;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    header img {
+        background-image: url(img/logo_02.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18.4rem;
+        height: 13.7rem;
+    }
+    header h1{
+        font-size: 4rem;
+        border: none;
+        padding: 1.8rem 0 2rem;
+        margin-bottom: 1.1rem;
+    }
+    main p{
+        position: fixed;
+        top: 30.8rem;
+        left: 0;
+        
+        
+        max-width: 30vw;
+        padding: 0 1.5rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 3.4rem;
+        color: #FFFFFF;
+        font-family: 'roboto', sans-serif;
+        text-shadow: 0 0 0 transparent;
+    }
+    main {
+        max-width: 62vw;
+        margin-top: 9.4rem;
+        margin-left: 33%;
+        padding: 0 0;
+
+        grid-template-columns: repeat(3, 1fr);
+        
+        grid-template-areas: "A B E"
+                             "D B F"
+                             "D C F";
+    }
+    .card1 {
+        grid-area: A;
+    }
+    .card2 {
+        grid-area: B;
+    }
+    .card3 {
+        grid-area: C;
+    }
+    .card4 {
+        grid-area: D;
+    }
+    .card5 {
+        display: block;
+        grid-area: E;
+    }
+    .card6 {
+        display: block;
+        grid-area: F;
+    }
+    footer {
+        display: inline-block;
+        width: 60vw;
+        margin-top: 2rem;
+        margin-left: 34vw;
+        margin-bottom: 2rem;
+        letter-spacing: .1rem;
+    }
+}
+
+
+

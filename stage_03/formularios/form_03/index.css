@@ -1,0 +1,217 @@
+
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* 1rem = 16px */
+    font-size: 62.5%; /* divide o px por 10 */ 
+                      /* 4.5rem = 45px*/
+}
+body{
+    width: 99vw;
+    height: 163rem;
+    background-color: #BFD7E4;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 46.5rem;
+    background-color: #293241;  
+    border-top: 1px solid #293241;  
+}
+.headerContent{
+    width: 39.1rem;
+    height: 19.3rem;    
+    color: #FFFFFF;
+    text-align: center;
+
+    margin: 10.7rem auto 3.2rem;
+}
+.headerContent h1{
+    font-family: "Staatliches";
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 4.5rem;
+}
+.headerContent p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-bottom: 2.7rem;
+}
+
+form{
+    width: 75rem;
+    height: 122.8rem;
+    background-color: #FFFFFF;
+
+    margin: -13.3rem auto 0;
+    padding: 0 6.4rem;
+
+    border-radius: 2rem;
+    position: relative;
+}
+fieldset{
+    border: none;
+    margin-bottom: 4rem;
+}
+
+.headForm{
+    width: 75rem;
+    height: 13.3rem;
+    background-color: #F67669;
+    border-radius: 20px 20px 0 0 ;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.headForm legend{
+    color: #FFFFFF;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.4rem;    
+    text-align: center;
+    margin: 5.0rem auto 0;
+    border: none;   
+}
+.containerName{
+    margin-top: 16.3rem;
+    
+    display: flex;
+    flex-direction: row;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;    
+}
+.input-wrapper label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 8px;
+}       
+.input-wrapper input, select{
+    width: 30rem;
+    height: 5.5rem; 
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+
+    padding-left: 8px;
+    padding-right: 15px;
+}
+.containerName .input-wrapper:nth-child(1){
+    margin-right: 2.2rem;
+}
+.input-email input{
+    width: 62.2rem;
+}
+
+
+legend{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    font-family: 'Staatliches', sans-serif;
+    color: #253B51;
+    text-align: center;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 8px;
+    width: 62.2rem;
+    margin-bottom: 3.1rem;
+}
+select, option, input[type="date"]{
+    font-family: 'Poppins';
+    color: #4E4958;
+    padding-left: 1rem;
+}
+.textArea{
+    margin-top: 3.2rem;
+}
+.textArea textarea{
+    width: 60rem;
+    height: 16.6rem;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.input-wrapper.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    
+}
+#checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 8px;
+
+    position: absolute;
+    opacity: 0;
+}
+.input-wrapper.checkbox label {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.input-wrapper.checkbox label::before {
+    content: '';
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid #E6E6F0;
+    display: block;
+    border-radius: 8px;
+
+    position: relative;
+}
+.input-wrapper.checkbox input:checked + label::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.4rem;
+}
+
+
+
+.container-date{
+    display: flex;
+    gap: 10px;
+}
+.container-date 
+.input-wrapper input[type="date"], input[Type="time"] {}
+
+.time input {
+    width: 14rem;  
+    
+}
+
+.timeBegin{
+    margin-left: 3.2rem;
+}
+
+button{
+    width: 100%;
+    height: 5.1rem;
+    background-color: #F67669;
+    border-radius: 8px;
+    border: none;
+
+    color: #FFFFFF;
+    font-size: 2.0rem;
+
+    font-family: 'Staatliches', sans-serif;
+
+}
