@@ -26,7 +26,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
 
 <ol>
   <li>Stage 01</li><BR>
-  <li><a href="" style="color:white;">Stage 02</a>
+  <li><a href="" style="text-decoration:none;">Stage 02</a>
     <ul>
       <li><a href="" style="color:white;">Introdução ao HTML e CSS</a>
         <ul>
