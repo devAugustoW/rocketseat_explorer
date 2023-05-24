@@ -3,7 +3,7 @@
 
 <br>
 
-<p style="text-align: justify;">O Explorer é um programa de formação da Rocketseat que oferece treinamento em programação, desde os fundamentos até a preparação para a primeira vaga de emprego na área. Os módulos incluem desde fundamentos da internet e programação web, até o uso de ferramentas como Git, bancos de dados SQL, e o desenvolvimento de aplicações com React, Node.js e outras tecnologias. O programa também aborda temas como controle de versão, integração front-end e back-end, autenticação, testes e implantação de projetos.</p>
+<p style="text-align:justify;">O Explorer é um programa de formação da Rocketseat que oferece treinamento em programação, desde os fundamentos até a preparação para a primeira vaga de emprego na área. Os módulos incluem desde fundamentos da internet e programação web, até o uso de ferramentas como Git, bancos de dados SQL, e o desenvolvimento de aplicações com React, Node.js e outras tecnologias. O programa também aborda temas como controle de versão, integração front-end e back-end, autenticação, testes e implantação de projetos.</p>
 <br><br>
 
 ## Tecnologias 
