@@ -1,4 +1,4 @@
-<img src="./explorer_img_readme.svg">
+<img src="Explorer_img_Readme.svg">
 <br>
 
 # Programa Explorer
