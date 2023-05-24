@@ -95,5 +95,6 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   </li> <br>
   <li><a href="" style="color: white;">Intensivão</a>
     <ul>
-      <li><a href="" style="color:white;">Explore sem limites</a>
+      <li><a href="" style="color:white;">Explore sem limites</a></li>
+      <li><a href="" style="color:white;"></a></li>
   </li>
