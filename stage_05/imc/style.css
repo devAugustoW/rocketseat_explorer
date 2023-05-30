@@ -23,7 +23,7 @@ body {
    position: relative;
 }
 
-.screen-error.open {
+.screen-error.appear {
     transform: translateY(0px);
     transition: transform .9s;
 }
@@ -38,8 +38,7 @@ body {
     right: 0;
 
     transform: translateY(-40px);
-    transition: transform .9
-    s;
+    transition: transform .9s;
 }
 .screen-error h2 {
     font-size: 2rem;
@@ -122,13 +121,13 @@ main {
     margin: auto;
     transform: translateY(240%);
 }
-#btnClose {
+#modalBtnClose {
     position: absolute;
     top: 1.6rem;
     right: 1.6rem;  
     cursor: pointer;
     transition: transform .3s;
 }
-#btnClose:hover {
+#modalBtnClose:hover {
     transform: scale(1.2);
 }

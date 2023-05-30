@@ -12,7 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <script src="main.js" defer></script>
+    <script src="./js/main.js" defer type="module"></script>
     <title>Calculadora de IMC</title>
 </head>
 <body>
@@ -28,12 +28,12 @@
 
         <div class="input-wrapp">
             <label for="input-weight">Peso (kg)</label>
-            <input type="text" id="input-weight" placeholder="60">
+            <input type="text" id="input-weight">
         </div>
 
         <div class="input-wrapp">
             <label for="input-height">Altura (m)</label>
-            <input type="text" id="input-height" placeholder="1.80">
+            <input type="text" id="input-height">
         </div>
 
         <button id="btnCalcular">Calcular IMC
@@ -45,8 +45,8 @@
 
     <div class="modal-container hide">
         <div class="modal">
-            <img id="btnClose" src="assets/close.svg" alt="botao para fechar modal">
-            <h2 id="finalFrase">Seu IMC é de 28</h2>
+            <img id="modalBtnClose" src="assets/close.svg" alt="botao para fechar modal">
+            <h2 id="modalMessage">Seu IMC é de 28</h2>
         </div>
     </div>
     
