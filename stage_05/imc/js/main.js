@@ -37,6 +37,6 @@ function erase() {
     inputHeight.value = ''
 }
 
-// Evento que faz o screen error sumir somente com a digitação no INPUT
+// Evento que faz o screen error sumir somente com digitação no INPUT
 inputWeight.oninput = () => AlertError.dissapear()
 inputHeight.oninput = () => AlertError.dissapear()
