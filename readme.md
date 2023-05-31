@@ -101,8 +101,8 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
   </li><br>
   <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao" style="color: white;">Stage 05</a>
     <ul>
-      <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao/explore_sem_limites" style="color:white;">Jogo da da adivinhação</a></li>
-      <li><a href="" style="color:white;">Biscoito da sorte</a></li>
+      <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_05/Jogo_da_adivinhacao/index.html" style="color:white;">Jogo da da adivinhação</a></li>
+      <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_05/Biscoito_da_sorte/index.html" style="color:white;">Biscoito da sorte</a></li>
       <li><a href="" style="color:white;">x-x-x-x-x-x-x-x-x</a></li>
       <li><a href="" style="color:white;">x-x-x-x-x-x-x-x-x</a></li>
       <li><a href="" style="color:white;">x-x-x-x-x-x-x-x-x</a></li>
