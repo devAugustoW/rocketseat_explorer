@@ -99,7 +99,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
       <li><a href="" style="color:white;">JavaScript</a></li>
     </ul>
   </li><br>
-  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao" style="color: white;">Intensivão</a>
+  <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao" style="color: white;">Stage 05</a>
     <ul>
       <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/intensivao/explore_sem_limites" style="color:white;">Jogo da da adivinhação</a></li>
       <li><a href="" style="color:white;">Biscoito da sorte</a></li>
