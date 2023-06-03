@@ -11,9 +11,7 @@
     --primary-color: #42D3FF;
     --text-color: #FFFFFF;
 }
-.hide {
-    display: none;
-}
+
 body {
     background-color: var(--bg-color);
     width: 100vw;
@@ -27,7 +25,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+.hide {
+    display: none;
 }
 
 main {
