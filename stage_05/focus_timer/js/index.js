@@ -14,32 +14,40 @@ let seconds
 let minutes
 let internvalID
 
-
 function callCountdown() {
+
+
+
+    
 
     //FUNÇÃO EXECUTADA A CADA 1000ms
     internvalID = setInterval(() => {
 
-        //TRANSFOMRAR EM NÚMERO
         minutes = Number(minutes)
         seconds = Number(seconds)
 
-        //MANIPULAR OS NÚMEROS
         if (minutes == 0 && seconds == 0){
+            resetControls()
             return
         } 
         
         if (seconds == 0) {
+            seconds = 4
             minutes--
-            seconds = 11
         } else {
             seconds--
         }
 
-        //TRANSFORMAR EM STRING E IMPRIMIR OS "NÚMEROS"
         upDateDisplay()
         
      }, 1000)
+}
+
+function resetControls() {
+    btnPlay.classList.remove('hide')
+    btnPause.classList.add('hide')
+    btnStop.classList.add('hide')
+    btnSet.classList.remove('hide')
 }
 
 function upDateDisplay() {
@@ -52,6 +60,14 @@ function resetDisplay() {
     secondsHTML.textContent = String('00')
 }
 
+
+btnSet.addEventListener('click', function() {
+    minutes = prompt('Digite alguma coisa') || 0
+    minutesHTML.textContent = String(minutes).padStart(2, '0')
+    
+    seconds = 0
+}) 
+
 btnPlay.addEventListener('click', function() {
     btnPlay.classList.add('hide')
     btnPause.classList.remove('hide')
@@ -60,7 +76,6 @@ btnPlay.addEventListener('click', function() {
 
     callCountdown();
 })
-
 
 btnPause.addEventListener('click', function() {
     btnPause.classList.add('hide')
@@ -79,29 +94,3 @@ btnStop.addEventListener('click', function() {
 
     resetDisplay()
 })
-
-
-btnSet.addEventListener('click', function() {
-    let newMinutes = prompt('Digite alguma coisa')
-    if (!newMinutes) {
-        
-        return
-    }
-
-    if (minutes === null) {
-        resetDisplay()
-    }
-
-    seconds = 0
-    console.log(typeof(seconds))
-    
-    upDateDisplay()
-})  
-
-
-
-
-
-
-
-
