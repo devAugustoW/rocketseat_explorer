@@ -1,10 +1,10 @@
 # STAGE 04
-<p align='justify'>Módulo dividido em duas partes. A primeira traz ensinamentos conceituais do JavaScript e a segunda parte trabalha os conceitos ensinados na forma de exercícios.</p>
+<p align='justify'>Este módulo está dividido em duas partes. A primeira traz ensinamentos conceituais do JavaScript e a segunda parte trabalha os conceitos ensinados na forma de exercícios.</p>
 
 <br>
 
 # 💻 Parte 01
-A primeira parte deste Stage é conceitual. Os assuntos abordados estão listados abaixo.
+A primeira parte deste Stage é conceitual. fundamentos da linguagem JavaScript e como ela é usada para criar páginas da web dinâmicas e interativas.
 
 <ul>
     <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/introucao_JS" style="color:white;">Introdução aos conceitos de JavaScript</a>
