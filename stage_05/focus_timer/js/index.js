@@ -1,8 +1,8 @@
 //default import
-import resetControls from "./controls.js"
+//import resetControls from "./controls.js"
 
 // named import
-import { Timer } from "./timer.js"
+//import { Timer } from "./timer.js"
 
 
 let minutesHTML = document.querySelector('.minutes')
