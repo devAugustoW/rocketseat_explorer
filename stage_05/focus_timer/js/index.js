@@ -1,5 +1,11 @@
-// VARIÁVEIS
-// Obter o elemento HTML que exibe os minutos e segundos
+//default import
+import resetControls from "./controls.js"
+
+// named import
+import { Timer } from "./timer.js"
+
+
+
 let minutesHTML = document.querySelector('.minutes')
 let secondsHTML = document.querySelector('.seconds')
 
@@ -7,58 +13,14 @@ let btnPlay = document.querySelector('.play')
 let btnPause = document.querySelector('.pause')
 let btnStop = document.querySelector('.stop')
 let btnSet = document.querySelector('.btnSet')
-let btnSoundOn = document.querySelector('.sound-on')
-let btnSoundOff = document.querySelector('.sound-off')
 
 let seconds
 let minutes
 let internvalID
 
-function callCountdown() {
 
 
 
-    
-
-    //FUNÇÃO EXECUTADA A CADA 1000ms
-    internvalID = setInterval(() => {
-
-        minutes = Number(minutes)
-        seconds = Number(seconds)
-
-        if (minutes == 0 && seconds == 0){
-            resetControls()
-            return
-        } 
-        
-        if (seconds == 0) {
-            seconds = 4
-            minutes--
-        } else {
-            seconds--
-        }
-
-        upDateDisplay()
-        
-     }, 1000)
-}
-
-function resetControls() {
-    btnPlay.classList.remove('hide')
-    btnPause.classList.add('hide')
-    btnStop.classList.add('hide')
-    btnSet.classList.remove('hide')
-}
-
-function upDateDisplay() {
-    minutesHTML.textContent = String(minutes).padStart(2, '0')
-    secondsHTML.textContent = String(seconds).padStart(2, '0')
-}
-
-function resetDisplay() {
-    minutesHTML.textContent = String('00')
-    secondsHTML.textContent = String('00')
-}
 
 
 btnSet.addEventListener('click', function() {
@@ -85,12 +47,7 @@ btnPause.addEventListener('click', function() {
 })
 
 btnStop.addEventListener('click', function() {
-    btnStop.classList.add('hide')
-    btnPause.classList.add('hide')
-    btnSet.classList.remove('hide')
-    btnPlay.classList.remove('hide')
-
     clearInterval(internvalID)
-
     resetDisplay()
+    resetControls()
 })
