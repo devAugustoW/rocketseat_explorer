@@ -5,7 +5,6 @@ import resetControls from "./controls.js"
 import { Timer } from "./timer.js"
 
 
-
 let minutesHTML = document.querySelector('.minutes')
 let secondsHTML = document.querySelector('.seconds')
 
@@ -18,10 +17,47 @@ let seconds
 let minutes
 let internvalID
 
+function callCountdown() {
 
+    //FUNÇÃO EXECUTADA A CADA 1000ms
+    internvalID = setInterval(() => {
 
+        minutes = Number(minutes)
+        seconds = Number(seconds)
 
+        if (minutes == 0 && seconds == 0){
+            resetControls()
+            return
+        } 
+        
+        if (seconds == 0) {
+            seconds = 4
+            minutes--
+        } else {
+            seconds--
+        }
 
+        upDateDisplay()
+        
+     }, 1000)
+}
+
+function upDateDisplay() {
+    minutesHTML.textContent = String(minutes).padStart(2, '0')
+    secondsHTML.textContent = String(seconds).padStart(2, '0')
+}
+
+function resetDisplay() {
+    minutesHTML.textContent = String('00')
+    secondsHTML.textContent = String('00')
+}
+
+function resetControls() {
+    btnPlay.classList.remove('hide')
+    btnPause.classList.add('hide')
+    btnStop.classList.add('hide')
+    btnSet.classList.remove('hide')
+}
 
 btnSet.addEventListener('click', function() {
     minutes = prompt('Digite alguma coisa') || 0
@@ -48,6 +84,6 @@ btnPause.addEventListener('click', function() {
 
 btnStop.addEventListener('click', function() {
     clearInterval(internvalID)
+    resetControls()    
     resetDisplay()
-    resetControls()
 })
