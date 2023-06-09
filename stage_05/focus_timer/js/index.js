@@ -1,10 +1,3 @@
-//default import
-//import resetControls from "./controls.js"
-
-// named import
-//import { Timer } from "./timer.js"
-
-
 let minutesHTML = document.querySelector('.minutes')
 let secondsHTML = document.querySelector('.seconds')
 
@@ -75,15 +68,15 @@ btnPlay.addEventListener('click', function() {
     callCountdown();
 })
 
+btnStop.addEventListener('click', function() {
+    resetControls()
+    clearInterval(internvalID)
+    resetDisplay()
+})
+
 btnPause.addEventListener('click', function() {
     btnPause.classList.add('hide')
     btnPlay.classList.remove('hide')
 
     clearInterval(internvalID)
-})
-
-btnStop.addEventListener('click', function() {
-    clearInterval(internvalID)
-    resetControls()    
-    resetDisplay()
 })

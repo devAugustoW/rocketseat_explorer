@@ -1,110 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-
-<body>
-
-
-    <header>
-
-        <div class="header-img">
-
-        </div>
-        
-
-        <div class="header-text">
-            <h1>Explore sem limites</h1>
-            <p>Porque o aprendizado é contínuo</p>
-
-            <button>
-                <img src="./img/img_button.png" alt="botão com seta para baixo">
-            </button>
-        </div>
-
-    </header>
-
-
-    <main>
-        <div class="card card01">
-            <img src="./img/planet_orange.png" alt="planeta laranja">
-
-            
-            <h2>Não pare nunca</h2>
-            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
-           
-        </div>
-
-        <div class="card card02">
-            <img src="./img/planet_blue.png" alt="planeta azul">
-
-            
-            <h2>Só volta</h2>
-            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
-            
-        </div>
-
-        <div class="card card03">
-            <img src="./img/planet_pink.png" alt="planeta rosa">
-
-            
-            <h2>Siga seu ritmo</h2>
-            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
-            
-        </div>
-    </main>
-
-
-    <div class="form-container">
-
-        <form>
-            <h2>Entre em contato</h2>
-            
-            <div class="wrap-input">
-                <label for="name">
-                    <img src="./img/person.png" >
-                </label>
-                <input type="text" id="name" placeholder="Seu nome">
-            </div>
-
-
-            <div class="wrap-input">
-                <label for="email">
-                    <img src="./img/at.png">
-                </label>
-                <input type="email" id="email" placeholder="Email">
-            </div>
-
-
-            <div>
-                <textarea name="" id="" placeholder="Digite a sua mensagem aqui"></textarea>
-            </div>
-
-            <button>Enviar mensagem</button>
-        </form>
-
-
-        <div class="form-background">
-            
-        </div>
-    </div>
-
-
-    <footer>
-        <p>&copy; 2023 - Rocketseat Explorer</p>
-    </footer>
-   
+input{
+    height: 0;
+    width: 0;
     
-</body>
-</html>
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 152px;
+    height: 47px;
+    background: grey;
+    float: right;
+    
+    position: relative;
+}
+label::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+input:checked + label {
+    background-color: var(--color-headings);
+}
+input:checked + label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+label:active:after {
+    width: 45px;
+}
