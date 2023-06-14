@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+
+    --ff-primary: 'Poppins', sans-serif;
+    --text-color: #3030330;
+
+    --hue: 194;
+    --primary-color: hsl(var(--hue), 100%, 63%)
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: rgb(230, 250, 250);
+}
+
+body * {
+    font-family: var(--ff-primary)
+}
+
+button {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+#app {
+    max-width: 52rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
