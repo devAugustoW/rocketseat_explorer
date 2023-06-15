@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #faf6d9;
+    
+}
+
+.container {
+    width: 821px;
+    height: 336px;
+    display: flex;
+
+    margin: 50px auto;
+}
+
+main {
+    padding: 42px 22px;
+    margin-right: 150px;
+}
+
+.timer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 125px;
+    font-weight: 500;
+    color: #323238;
+
+    display: flex;
+    margin-bottom: 17px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px
+
+    
+}
+.cards button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.tree {}
+.rain {}
+.shop {}

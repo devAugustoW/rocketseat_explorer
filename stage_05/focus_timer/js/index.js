@@ -6,9 +6,17 @@ let btnPause = document.querySelector('.pause')
 let btnStop = document.querySelector('.stop')
 let btnSet = document.querySelector('.btnSet')
 
+let soundOn = document.querySelector('.sound-on')
+let soundOff = document.querySelector('.sound-off')
+
 let seconds
 let minutes
 let internvalID
+
+const audio = new Audio('https://github.com/maykbrito/automatic-video-creator/blob/master/audios/bg-audio.mp3?raw=true')
+const audioKitchenTimer = new Audio('https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true')
+
+audio.loop = true
 
 function callCountdown() {
 
@@ -19,12 +27,14 @@ function callCountdown() {
         seconds = Number(seconds)
 
         if (minutes == 0 && seconds == 0){
+            audio.pause()
+            audioKitchenTimer.play()
             resetControls()
             return
         } 
         
         if (seconds == 0) {
-            seconds = 4
+            seconds = 59
             minutes--
         } else {
             seconds--
@@ -52,8 +62,9 @@ function resetControls() {
     btnSet.classList.remove('hide')
 }
 
+
 btnSet.addEventListener('click', function() {
-    minutes = prompt('Digite alguma coisa') || 0
+    minutes = prompt('Quantos minutos?') || 0
     minutesHTML.textContent = String(minutes).padStart(2, '0')
     
     seconds = 0
@@ -79,4 +90,21 @@ btnPause.addEventListener('click', function() {
     btnPlay.classList.remove('hide')
 
     clearInterval(internvalID)
+})
+
+
+soundOff.addEventListener('click', function() {
+    soundOff.classList.add('hide')
+    soundOn.classList.remove('hide')
+
+    
+    audio.play().loop
+
+})
+
+soundOn.addEventListener('click', function() {
+    soundOn.classList.add('hide')
+    soundOff.classList.remove('hide')
+
+    audio.pause()
 })
