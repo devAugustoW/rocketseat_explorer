@@ -21,9 +21,9 @@ const secondsHTML = document.querySelector('#seconds')
 let minutes = Number(minutesHTML.textContent)
 let seconds = Number(secondsHTML.textContent)
 
-let intervalID
-    
+let intervalID   
 let clickCount = 0
+let isActived = false
 
 
 function showDisplay() {
@@ -62,13 +62,22 @@ function resetDisplay(){
 
 btnplay.addEventListener('click', () => {
     clickCount = 0
-    countDown()
+
+    // check if countDown is runnig already
+    if (!isActived) {
+        countDown()
+        isActived = true
+    } else {
+        return
+    }    
 
 })
 
 btnStop.addEventListener('click', () => {
     clickCount++ 
+    isActived = false
     
+    // Reset display with a second click
     if (clickCount % 2 == 0 && clickCount != 0) {
         resetDisplay()
     }
