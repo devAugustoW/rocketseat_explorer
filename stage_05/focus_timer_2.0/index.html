@@ -5,62 +5,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FocusTimer - DarkMode</title>
-    <link rel="icon" type="image/png" href="./assets/html-coding.png" />
+    <title>Focus Timer 2.0</title>
+    <link rel="icon" type="image/png" href="./assets/bugnaldo.png" />
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div id="app">
+    <main>
+        <div class="timer">
+            <div class="display">
+                <span id="minutes">25</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
 
-        <main>        
+            <div class="buttons">
+                <button class="btn" id="btnPlay">
+                    <img src="./assets/btnPlay.png" alt="botão que inicia o timer">
+                </button>
 
-            <div id="wrapperTimer">
-                
-                <div id="timer">
-                    <span class="minutes">25</span><span>:</span><span class="seconds">00</span>
-                </div>
+                <button class="btn" id="btnStop">
+                    <img src="./assets/btnStop.png" alt="botão que pausa o timer">
+                </button>
 
-                <div id="controls">
-                    <button class="btnPlay">
-                        <img src="./assets/play.png" alt="Botão para o timer">
-                    </button>
-                    
-                    <button class="btnStop">
-                        <img src="./assets/stop.png" alt="Botão para parar o timer">
-                    </button>
-                    <button class="btnIncrease">
-                        <img src="./assets/+.png" alt="Botão para aumentar o tempo do timer">
-                    </button>
-                    <button class="btnDecrease">
-                        <img src="./assets/-.png" alt="Botão para diminuir o tempo do timer">
-                    </button>
-                </div>
+                <button class="btn" id="btnIncrease">
+                    <img src="./assets/btnIncrease.png" alt="botão que aumenta 5 minutos no timer">
+                </button>
 
+                <button class="btn" id="btnDecrease">
+                    <img src="./assets/btnDecrease.png" alt="botão que diminui 5 minutos no timer">
+                </button>
             </div>
             
-            <div id="cards">
-                <div id="btnForest" class="card">
-                    <img src="./assets/Card 01.svg" alt="Botão para tocar o som de floresta">
-                    
-                </div>
-                <div id="btnRain" class="card">
-                    <img src="./assets/Card 02.svg" alt="Botão para tocar o som de chuva">
-                    
-                </div>
-                <div id="btnCoffeeShop" class="card">
-                    <img src="./assets/Card 03.svg" alt="Botão para tocar o som de cafeteria">
-                    
-                </div>
-                <div id="btnFireplace" class="card">
-                    <img src="./assets/Card 04.svg" alt="Botão para tocar o som de lareira">
-                    
-                </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card" id="btnForest">
+                <label for="checkbox1">
+                    <img src="./assets/Card 01.svg" alt="card com som de floresta">
+                </label>
+
+                <input type="checkbox" name="mycheckbox" id="checkbox1">
             </div>
-        </main>
-    </div>
+
+            <div class="card" id="btnRain">
+                <label for="checkbox2">
+                    <img src="./assets/Card 02.svg" alt="card com som de chuva">
+                </label>
+
+                <input type="checkbox" name="mycheckbox" id="checkbox2">
+            </div>
+
+            <div class="card" id="btnShop">
+                <label for="checkbox3">
+                    <img src="./assets/Card 03.svg" alt="card com som de pessoas conversando">
+                </label>
+
+                <input type="checkbox" name="mycheckbox" id="checkbox3">
+            </div>
+
+            <div class="card" id="btnFire">
+                <label for="checkbox4">
+                    <img src="./assets/Card 04.svg" alt="card com som de lareira">
+                </label>
+
+                <input type="checkbox" name="mycheckbox" id="checkbox4">
+            </div>
+        </div>
+    </main>
     
-    <script src="./script.js" type="module"></script>
+    <script src="./js/script.js" type="module"></script>
 </body>
 </html>
