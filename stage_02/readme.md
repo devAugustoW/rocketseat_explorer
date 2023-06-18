@@ -11,7 +11,7 @@
 <br>
 
 # 💻 Projetos
-As pastas de cada projetos se encontram nos links abaixo:
+Os projetos podem ser acessados pelos links abaixo:
 
  <ul>
     <li>
