@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root {
-    font-size: 62.5%;
+    font-size: 55%;
 }
 
 body{
@@ -56,6 +56,7 @@ nav a:hover {
 main {
     display: flex;
     justify-content: space-between;
+
 
     margin-bottom: 8.2rem;
 }
@@ -136,5 +137,5 @@ footer a {
     position: fixed;
 
     right: 1%;
-    top: 90%
+    bottom: 2.5%;
 }
