@@ -17,9 +17,9 @@ As pastas de cada projetos se encontram nos links abaixo:
 <ol>
     <li><a href="" style="color:white;">Formulários</a>
         <ul>
-            <li><a href="" style="color:white;">Formulário  Eventos</a></li>
-            <li><a href="" style="color:white;">Formulário Mentoria</a></li>
-            <li><a href="" style="color:white;">Formulário Avaliação</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_01/index.html" style="color:white;">Formulário  Eventos</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_02/index.html" style="color:white;">Formulário Mentoria</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color:white;">Formulário Avaliação</a></li>
         </ul> <BR>
     </li>
     <li><a href="" style="color:white;">Responsividade</a>

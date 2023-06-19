@@ -16,13 +16,13 @@ Os projetos podem ser acessados pelos links abaixo:
 
  <ul>
     <li>
-        <a href="#" style="color: white;">Formulário Eventos</a>
+        <a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_01/index.html" style="color: white;">Formulário Eventos</a>
     </li>
     <li>
-        <a href="#" style="color: white;">Formulário Mentoria</a>
+        <a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_02/index.html" style="color: white;">Formulário Mentoria</a>
     </li>
     <li>
-        <a href="#" style="color: white;">Formulário Avaliação</a>
+        <a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color: white;">Formulário Avaliação</a>
     </li>
  </ul>
 

@@ -45,7 +45,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
         <ul>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_01/index.html" style="color:white;">Form Evento</a></li>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_02/index.html" style="color:white;">Form Mentoria</a></li>
-          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color:white;">Form Avaliacao</a></li>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color:white;">Form Avaliação</a></li>
         </ul><BR>
       </li>
       <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/responsividade" style="color:white;">Responsividade</a>
