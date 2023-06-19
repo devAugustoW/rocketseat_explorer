@@ -15,7 +15,7 @@ Os projetos podem ser acessados pelos links abaixo:
 
  <ul>
     <li>
-        <a href="#" style="color: white;">Trabalhos Recentes</a>
+        <a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/trabalhos_recentes/index.html" style="color: white;">Trabalhos Recentes</a>
     </li>
     <li>
         <a href="#" style="color: white;">Space Cream</a>
