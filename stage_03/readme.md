@@ -24,7 +24,7 @@ As pastas de cada projetos se encontram nos links abaixo:
     </li>
     <li><a href="" style="color:white;">Responsividade</a>
         <ul>
-            <li><a href="" style="color:white;">Responsividade</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/responsividade/index.html" style="color:white;">Responsividade</a></li>
         </ul>
     </li><br>
     <li><a href="" style="color:white;">Avançando no CSS</a>

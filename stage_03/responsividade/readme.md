@@ -10,7 +10,7 @@ Primeiro projeto responsivo do Bootcamp. Página feita com técnicas básicas de
 O projeto pode ser acessado pelo lnk abaixo:
 
 <ul>
-    <li><a href="#" target="_blank" style="color: white;">Primeiro Projeto Responsivo</a></p>
+    <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/responsividade/index.html" target="_blank" style="color: white;">Primeiro Projeto Responsivo</a></p>
 </ul>
 
 <br> 
