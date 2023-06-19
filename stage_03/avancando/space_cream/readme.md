@@ -8,7 +8,7 @@ Web site feito pensando no mobile first com técnicas de sobreposição de eleme
 <br>
 O projeto pode ser acessado pelo link abaixo:
 <ul>
-    <li><a href="#" target="_blank" style="color: white;">Space Cream</a></p>
+    <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream/index.html" target="_blank" style="color: white;">Space Cream</a></p>
 </ul>
 
 <br> 

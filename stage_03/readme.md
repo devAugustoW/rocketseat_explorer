@@ -29,10 +29,10 @@ As pastas de cada projetos se encontram nos links abaixo:
     </li><br>
     <li><a href="" style="color:white;">Avançando no CSS</a>
         <ul>
-            <li><a href="" style="color:white;">Trabalhos Recentes</a></li>
-            <li><a href="" style="color:white;">Space Cream</a></li>
-            <li><a href="" style="color:white;">Space Cream 02</a></li>
-            <li><a href="" style="color:white;">Jardim das Toupeiras</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/trabalhos_recentes/index.htm" style="color:white;">Trabalhos Recentes</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream/index.html" style="color:white;">Space Cream</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream_02/index.html" style="color:white;">Space Cream 02</a></li>
+            <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/toupeiras/index.html" style="color:white;">Jardim das Toupeiras</a></li>
         </ul>
     </li>
 </ol>

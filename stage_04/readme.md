@@ -1,10 +1,10 @@
 # STAGE 04
-<p align='justify'>Este módulo está dividido em duas partes. A primeira traz ensinamentos conceituais do JavaScript e a segunda parte trabalha os conceitos ensinados na forma de exercícios.</p>
+<p align='justify'>Este módulo está dividido em duas partes. A primeira traz ensinamentos conceituais do JavaScript e a segunda parte trabalha os conceitos na forma de exercícios.</p>
 
 <br>
 
 # 💻 Parte 01
-A primeira parte deste Stage é conceitual. fundamentos da linguagem JavaScript e como ela é usada para criar páginas da web dinâmicas e interativas.
+A primeira parte deste Stage é conceitual, traz os fundamentos da linguagem JavaScript e como ela é usada para criar páginas da web dinâmicas e interativas.
 
 <ul>
     <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/introucao_JS" style="color:white;">Introdução aos conceitos de JavaScript</a>
@@ -25,7 +25,7 @@ A primeira parte deste Stage é conceitual. fundamentos da linguagem JavaScript 
 
 # 💻 Parte 02
 <p align="justify">
-Na segunda parte deste Stage é ensinado a importância da quebra de paradigmas, como raciocinar afim de resolver problemas e como organizar o pensamento lógico. Nos desafios e exercícios listados abaixo temos execução de funções, variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e maipulação de dados com foco na resolução de problemas.</p>
+Na segunda parte deste Stage temos a importância da quebra de paradigmas, como raciocinar afim de resolver problemas e como organizar o pensamento lógico. Nos desafios e exercícios listados abaixo temos execução de funções, variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e maipulação de dados com foco na resolução de problemas.</p>
 
 <ul>
     <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/algoritmos_e_logica" style="color:white;">Algorítmo e lógica de programação com JavaScript</a>
