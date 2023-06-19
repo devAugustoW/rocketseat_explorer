@@ -47,10 +47,6 @@ header p {
     width: 283px;
 }
 
-.page {
-
-}
-
 form {
     max-width: 736px;
     background-color: #FAFAFC;
@@ -120,6 +116,7 @@ input:invalid {
     background-color: #FAFAFC;
     border-radius: 8px;
 
+    padding: 16px;
     margin-bottom: 24px;
 }
 

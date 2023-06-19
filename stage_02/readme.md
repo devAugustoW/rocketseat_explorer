@@ -30,3 +30,7 @@ Os projetos podem ser acessados pelos links abaixo:
         <a href="https://devaugustow.github.io/rocketseat_explorer/stage_02/rocket_sect/index.html" style="color: white;">Rocket.sect</a>
     </li>
  </ul>
+<br>
+
+ # 🤝 Contribuições
+ <p align="jistify">Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou sugerir melhorias.</p>
