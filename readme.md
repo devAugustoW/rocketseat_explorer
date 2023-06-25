@@ -46,19 +46,19 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_01/index.html" style="color:white;">Form Evento</a></li>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_02/index.html" style="color:white;">Form Mentoria</a></li>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/formularios/form_03/index.html" style="color:white;">Form Avaliação</a></li>
-        </ul><BR>
+        </ul>
       </li>
       <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/responsividade" style="color:white;">Responsividade</a>
         <ul>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/responsividade/index.html" style="color:white;">Responsivo</a></li>
         </ul>
-      </li><BR>
+      </li>
       <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_03/avancando" style="color:white;">Avançando no HTML e CSS</a>
         <ul>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/trabalhos_recentes/index.html" style="color:white;">Trabalhos Recentes</a></li>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream/index.html" style="color:white;">Space Cream</a></li>
           <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/space_cream_02/index.html" style="color:white;">Space Cream 02</a></li>
-          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/toupeiras/index.html" style="color:white;">Jardim das Toupeiras</a></li><BR>
+          <li><a href="https://devaugustow.github.io/rocketseat_explorer/stage_03/avancando/toupeiras/index.html" style="color:white;">Jardim das Toupeiras</a></li><br>
         </ul>
       </li>
     </ul>
@@ -76,7 +76,7 @@ O repositório conta com os projetos e desafios aplicados durante o curso Explor
             <li><a href="" style="color:white;">Condicionais e Controle de Fluxo</a></li>
             <li><a href="" style="color:white;">Estruturas de Repetição</a></li>
         </ul>
-      </li> <br>
+      </li> 
       <li><a href="https://github.com/devAugustoW/rocketseat_explorer/tree/main/stage_04/algoritmos_e_logica"style="color: white;">Lógica de Programação</a>
         <ul> 
           <li><a href="" style="color:white;">Perguntando nome e mostrando mensagem</a></li>
