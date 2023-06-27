@@ -9,17 +9,18 @@
 
     <title>Github Favorites</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app">
 
         <header>
             <h1>Github favoties</h1>
-            <div>
-                <label for="input-search">Usuário do Github</label>
+
+            <div class="search">
+                
+                <label class="sr-only" for="input-search">Usuário do Github</label>
                 <input id="input-search" type="text" placeholder="Usuário do Github">
                 <button>&plus;</button>
             </div>
@@ -28,28 +29,17 @@
         <table>
             <thead>
                 <tr>
-                    <th>User</th>
-                    <th>Repositories</th>
-                    <th>Followers</th>
+                    <th>Usuário</th>
+                    <th>Repositórios</th>
+                    <th>Seguidores</th>
                     <th></th>
                 </tr>
             </thead>
 
             <tbody>
+                
                 <tr>
-                    <td class="User">
-                        <img src="https://github.com/devaugustow.png" alt="foto augusto">
-                        <a href="https://github.com/devaugustow" target="_blank">
-                            <p>Augusto Dantas</p>
-                            <span>DevAugustoW</span>
-                        </a>
-                    </td>
-                    <td class="repositories">8</td>
-                    <td class="followers">10</td>
-                    <td>&times;</td>
-                </tr>
-                <tr>
-                    <td class="User">
+                    <td class="user">
                         <img src="https://github.com/maykbrito.png" alt="foto mayk britho">
                         <a href="https://github.com/maykbrito" target="_blank">
                             <p>Mayk Brito</p>
@@ -59,10 +49,10 @@
         
                     <td class="repositories">76</td>
                     <td class="followers">9500</td>
-                    <td>&times;</td>
+                    <td><button class="remove">&times;</button></td>
                 </tr>
                 <tr>
-                    <td class="User">
+                    <td class="user">
                         <img src="https://github.com/diego3g.png" alt="foto diego 3g">
                         <a href="https://github.com/diego3g" target="_blank">
                             <p>Diego 3g</p>
@@ -72,7 +62,7 @@
         
                     <td class="repositories">76</td>
                     <td class="followers">9500</td>
-                    <td>&times;</td>
+                    <td><button class="remove">&times;</button></td>
                 </tr>
             </tbody>
 
@@ -80,6 +70,6 @@
         </table>
     </div>
     
-    <script src="main.js"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
