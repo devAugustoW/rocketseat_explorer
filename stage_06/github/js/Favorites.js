@@ -1,36 +1,50 @@
+export class GithubUser {
+    static search(username) {
+        const endpoint = `https://api.github.com/users/${username}`
+
+        return fetch(endpoint)
+        .then(data => data.json())
+        .then(({login, name, public_repos, followers }) => ({
+            login,
+            name,
+            public_repos,
+            followers
+        }))
+    }
+}
+
+
+
 // Classe que vai conter a estrutura e a lógica dos dados
 export class Favorites {
     constructor(root) {
         this.root = document.querySelector(root)
         this.load()
 
+        GithubUser.search('diego3g').then(user => console.log(user))
     }
 
+
     load() {
-        this.entries = [
-            {
-                login: "DevAugustoW",
-                name: "Augusto Dantas",
-                public_repos: '8',
-                followers: '10'
-            },
-            {
-                login: "maykbrito",
-                name: "Mayk Brito",
-                public_repos: '76',
-                followers: '12000'
-            },
-            {
-                login: "diego3g",
-                name: "Diego Fernandes",
-                public_repos: '96',
-                followers: '20000'
-            }
-        ]
+        this.entries = JSON.parse(localStorage.getItem('@github-favorites:')) || []
+        
+    }
+
+    async add(username) {
+        const user = await GithubUser.search(username)
+
+        console.log(user)
+    }
+
+    delete(user) {
+        const filteredEntries = this.entries.filter(entry => entry.login !== user.login)
+
+        this.entries = filteredEntries
+
+        this.update()
     }
 
     
-
 }
 
 
@@ -39,8 +53,18 @@ export class Favorites {
 export class FavoritesView extends Favorites {
     constructor(root){
         super(root)
-        this.tbody = this.root.querySelector('table tbody')
+        this.tbody = this.root.querySelector('table tbody');
         this.update()
+        this.onadd()
+    }
+
+    onadd() {
+        const addButton = this.root.querySelector('.search button')
+        addButton.onclick = () => {
+            const { value } = this.root.querySelector('.search input')
+
+            this.add(value)
+        }
     }
 
     update() {
@@ -50,40 +74,50 @@ export class FavoritesView extends Favorites {
             const row = this.createRow()
 
             row.querySelector('.user img').src = `https://github.com/${user.login}.png`
+            row.querySelector('.user img').alt = `Imagem de ${user.name}`
+            row.querySelector('.user p').textContent = user.name
+            row.querySelector('.user span').textContent = user.login
+            row.querySelector('.repositories').textContent = user.public_repos
+            row.querySelector('.followers').textContent = user.followers
 
+            row.querySelector('.remove').onclick = () =>{
+                const isOk = confirm('Tem certeza que deseja deletar essa linha?')
 
-            this.tbody.append('row')
+                if(isOk){
+                    this.delete(user)
+                }
+            }
+
+            this.tbody.append(row)
         })
-
-        
-             
     }
 
-    createRow() {
-        const tbody = this.root.querySelector('table tbody')
+    
+ 
+    createRow(){
         const tr = document.createElement('tr')
 
         tr.innerHTML = `
-                <tr>
-                    <td class="user">
-                        <img src="https://github.com/devaugustow.png" alt="foto augusto">
-                        <a href="https://github.com/devaugustow" target="_blank">
-                            <p>Augusto Dantas</p>
-                            <span>DevAugustoW</span>
-                        </a>
-                    </td>
-                    <td class="repositories">8</td>
-                    <td class="followers">10</td>
-                    <td><button class="remove">&times;</button></td>
-                </tr>`
+        <tr>
+            <td class="user">
+                <img src="https://github.com/devaugustow.png" alt="foto augusto">
+                <a href="https://github.com/devaugustow" target="_blank">
+                    <p>Augusto Dantas</p>
+                    <span>DevAugustoW</span>
+                </a>
+            </td>
+            <td class="repositories">8</td>
+            <td class="followers">10</td>
+            <td><button class="remove">&times;</button></td>
+        </tr>`
 
         return tr
-         
     }
-    
-    removeAllTr() {
 
-        this.tbody.querySelectorAll('tr').forEach((tr) => {
+    removeAllTr() {
+        const tbody = this.root.querySelector('table tbody')
+
+        tbody.querySelectorAll('tr').forEach((tr) => {
             tr.remove()
         });
     }
